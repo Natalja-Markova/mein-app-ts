@@ -9,10 +9,15 @@ function Homework20() {
     let isManager: boolean = false;
     let experience: number = 5;
     let email: string = "john.doe@google.com";
-    let programLangs:string[] = ["JavaScript"," Python", " Maschine-Learning","Java"];
+    let programLangs:string[] = ["JavaScript",
+    "Python", 
+    " Maschine-Learning",
+    "Java",
+     "C++"];
 
     const langsElements= programLangs.map((lang:string)=>{
-     return <li  key= {v4()} className="program-lang">{lang}</li>  
+     return (<li  key= {v4()} className="program-lang">{lang}</li>
+     );
     });
 
     return(

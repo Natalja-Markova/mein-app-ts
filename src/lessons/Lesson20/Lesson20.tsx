@@ -11,7 +11,8 @@ function Lesson20() {
     const animals:string[] = ['cat',"dog","lion"];
     animals.push();
     const numbers: number[]= [2,3,4,5];
-    let arrayWithDifferentTypes:[string,string,number]= ["name","John",3]
+    let arrayWithDifferentTypes:[string,string,number]= ["name",
+    "John",3]
         return <div>Lesson 20</div>;
       }
       
