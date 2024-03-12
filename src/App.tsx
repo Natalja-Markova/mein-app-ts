@@ -26,39 +26,41 @@ import Apple from 'pages/Clients/Apple/Apple';
 import Facebook from 'pages/Clients/Facebook/Facebook';
 import Sega from 'pages/Clients/Sega/Sega';
 import Lesson27 from 'lessons/Lesson27/Lesson27';
+import Homework27 from 'homeworks/Homework27';
 
 
 function App() {
   return (
-    <BrowserRouter>
-      <GlobalStyles />
-      {/* <Layout>
-        <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/users" element={<Users />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/clients" element={<Clients />} />
-          <Route path="/clients/apple" element={<Apple />} />
-          <Route path="/clients/facebook" element={<Facebook />} />
-          <Route path="/clients/sega" element={<Sega />} /> 
-          <Route path="*" element="Page Not Found" />
-        </Routes>
-      </Layout> */}
+    // <BrowserRouter>
+    //   <GlobalStyles />
+    //   {/* <Layout>
+    //     <Routes>
+    //       <Route path="/home" element={<Home />} />
+    //       <Route path="/users" element={<Users />} />
+    //       <Route path="/about" element={<About />} />
+    //       <Route path="/clients" element={<Clients />} />
+    //       <Route path="/clients/apple" element={<Apple />} />
+    //       <Route path="/clients/facebook" element={<Facebook />} />
+    //       <Route path="/clients/sega" element={<Sega />} /> 
+    //       <Route path="*" element="Page Not Found" />
+    //     </Routes>
+    //   </Layout> */}
       
-      {/* <Lesson20 /> */}
-      {/* <Lesson21/> */}
-      {/* <Lesson22/> */}
-      {/* <Lesson23 /> */}
-       {/* <Lesson24/>  */}
-       {/* <Lesson25/> */}
-       {/* <Lesson26/> */}
-       <Lesson27 />
-      {/* <Homework20 /> */}
-      {/* <Homework21/> */}
-       {/* <Homework22/>  */}
-       {/* <Homework23/>   */}
-       {/* <Homework24/>  */}
-    </BrowserRouter>
+    //   {/* <Lesson20 /> */}
+    //   {/* <Lesson21/> */}
+    //   {/* <Lesson22/> */}
+    //   {/* <Lesson23 /> */}
+    //    {/* <Lesson24/>  */}
+    //    {/* <Lesson25/> */}
+    //    {/* <Lesson26/> */}
+        //<Lesson27 /> */}
+    //   {/* <Homework20 /> */}
+    //   {/* <Homework21/> */}
+    //    {/* <Homework22/>  */}
+    //    {/* <Homework23/>   */}
+    //    {/* <Homework24/>  */}
+        <Homework27/>
+    // </BrowserRouter>
   );
 }
 
