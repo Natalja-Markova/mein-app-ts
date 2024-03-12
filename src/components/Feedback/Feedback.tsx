@@ -1,5 +1,4 @@
 import { FeedbackProps } from "./types";
-import { Like, disLike } from "../../assets";
 import Button from "../Button/Button";
 import {
   FeedbackWrapper,

@@ -1,6 +1,5 @@
 import { Children, useState } from "react";
 import Feedback from "../../components/Feedback/Feedback"; 
-import { Like } from "../../assets";
 
 import "./styles.css";
 import Input from "../../components/Input/Input";

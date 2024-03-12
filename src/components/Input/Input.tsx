@@ -1,4 +1,9 @@
-import { InputContainer, InputComponent, InputLabel } from "./styles";
+import { InputContainer,
+   InputComponent,
+    InputLabel ,
+    ErrorContainer,
+  } 
+    from "./styles";
 import { InputProps } from "./types";
 
 function Input({ 
